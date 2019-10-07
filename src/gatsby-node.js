@@ -18,6 +18,7 @@ exports.sourceNodes = (
       ...group,
       id: nodeId,
       parent: null,
+      meetupId: group.id,
       children: [],
       internal: {
         type: `MeetupGroup`,

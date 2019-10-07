@@ -27,6 +27,7 @@ exports.sourceNodes = function (_ref, configOptions) {
     var nodeData = Object.assign({}, group, _objectSpread({}, group, {
       id: nodeId,
       parent: null,
+      meetupId: group.id,
       children: [],
       internal: {
         type: `MeetupGroup`,
